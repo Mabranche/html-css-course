@@ -1,8 +1,6 @@
 <style>
 
-a:hover{
-          color:green
-      }
+
       .requestnow-button {
           background-color: rgb(17, 16, 16);
           color: rgb(235, 230, 230);
@@ -135,22 +133,22 @@ a:hover{
       .save-button {
           background-color: rgb(248, 248, 248);
           color: rgb(76, 32, 199);
-          border: none;
           height: 50px;
           width: 120px;
           cursor: pointer;
-          border-color: red;
+          border-color: rgb(86, 18, 214);
           border-radius: 10px;
           font-weight: bolder;
           margin-left:0px ;
           transition:background-color  1s,
     color 1s;
     
+    
 }
 .save-button:hover{
     background-color: rgb(195, 213, 236);
     color: rgb(16, 20, 221);
-    
+    border-width: 4px;
 }
 .save-button:active{
     opacity: 0.7;
@@ -185,11 +183,16 @@ a:hover{
           font-size: large;
           transition: background-color 1s;
           color: 1s;
-          transition: box-shadow 0.15s;
+        
+      transition: background-color 1s;
+          color: 1s;
       }
       .addtocart-button:hover{
-    write-shadow: 10px 10px 10px rgb(0,0,0,0.15);
-}
+          opacity: 0.8;
+      }
+      .addtocart-button:active{
+          opacity: 0.7;
+      }
    
      
 
@@ -204,19 +207,38 @@ a:hover{
           border-radius: 25px;
           font-size: large;
           
+      
+      transition: background-color 1s;
+          color: 1s;
       }
+      .buynow-button:hover{
+          opacity: 0.8;
+      }
+      .buynow-button:active{
+          opacity: 0.7;
+      }
+   
 
       p{
           font-weight: bold;
           color:green
       }
-     
+      a:hover{
+          color:rgb(240, 101, 9)
+      }
       
 </style>
 
+<!-- html-->
+<h1>3a. Uber</h1>
+
+
+
+
+
 <h3><a href="Back to Amazon">Back to Amazon</a></h3>
-  <h1> <b><p>Nike Black Running Shoes</p></b> </h1>
+  <h1> <b>Nike Black Running Shoes</b> </h1>
     <h2><p  class="1" >$39-in stock</p></h2>
-    <h4><p>Free delivery tomorrow.</p></h4>
+    <h4>Free delivery tomorrow.</h4>
     <button class="addtocart-button">Add to cart</button>
     <button class="buynow-button"><b>Buy now</b></button>
