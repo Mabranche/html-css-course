@@ -8,8 +8,9 @@
             display: block;
            }
            .search-bar{
-               font-size: 20PX;
-               margin-right:12px ;
+               /*font-size: 20PX;
+               margin-right:12px ;*/
+               display:block;
            }
            .video-title{
              width: 300px;  
@@ -18,11 +19,18 @@
            .viddo-stats {
 display: inline-block;
            }
+
+           .video-preview{
+
+           }
         </style>
     </head>
     <body>
+
+      <div class="video-preview">
+      <input class="search-bar"  type="text" placeholder="search" name="" id="">
        <img  class="image" src="image/img1youtube.jpeg" alt=""> 
-       <input class="search-bar"  type="text" placeholder="search" name="" id="">
+
        <p class="video-title">
            Talking Tech <strong>  and AI with </strong> Google CEO Sundar Pichai!
        </p>
@@ -32,5 +40,23 @@ display: inline-block;
        <p class="video-stats">
 3.4M views &#183; 6 months ago
        </p>
+
+    </div> 
+
+    <div class="video-preview">
+        <input class="search-bar"  type="text" placeholder="search" name="" id="">
+         <img  class="image" src="image/img1youtube.jpeg" alt=""> 
+  
+         <p class="video-title">
+             Talking Tech <strong>  and AI with </strong> Google CEO Sundar Pichai!
+         </p>
+         <p class="video-author">
+             Marques Brownlee
+         </p>
+         <p class="video-stats">
+  3.4M views &#183; 6 months ago
+         </p>
+  
+      </div> 
     </body>
 </html>
