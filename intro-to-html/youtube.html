@@ -36,9 +36,7 @@
            }
 
            .video-preview{
-                 width: 300px;
-                display: inline-block;
-                vertical-align:top ;
+                 
                 margin-right: 15px;
            }
            
@@ -67,12 +65,16 @@
             display:grid;
             grid-template-columns: 50px 1fr; 
            }
+           .video-grid{
+             display: grid;
+             grid-template-columns: 1fr 1fr 200px;  ;
+           }
         </style>
     </head>
     
     <body>
         <input class="search-bar"  type="text" placeholder="search" name="" id=""> </input>
-        
+        <div class="video-grid">
         <div class="video-preview">
 
           <div class="image-row"> 
@@ -82,7 +84,7 @@
            <div class="image1">
              <img class="profil-image1"  src="image/dany.jpg">
            </div>
-           <div class="video-info">...</div>
+           <div class="video-info">
             <p class="video-title">
               <strong>Talking Tech   and AI with <br> Google CEO Sundar Pichai!</strong>
             </p>
@@ -92,7 +94,7 @@
             <p class="video-stats">
               3.4M views &#183; 6 months ago
            </p>
-          
+          </div>
           </div>
            
          </div> 
@@ -116,5 +118,6 @@
          </p>
         </div>
         </div> 
+      </div>
     </body>
 </html>
