@@ -3,22 +3,25 @@
     <head>
         <title>YouTube.com Clone</title>
         <style> 
-        .image{
-            width: 300px;
-            display: block;
-           }
+        .p{
+          font-family: Roboto, Arial;;
+        }
+            .image{
+              width: 300px;
+             display: block;
+            }
 
-           .search-bar{
-               /*font-size: 20PX;
-               margin-right:12px ;*/
+            .search-bar{
+               
+               margin-top:0;
                display:block;
-           }
-           .video-title{
-             width: 300px;  
-           }
+            }
+            .video-title{
+               width: 300px;  
+            }
            .video-author,
            .viddo-stats {
-display: inline-block;
+              display: inline-block;
            }
 
            .video-preview{
@@ -28,9 +31,20 @@ display: inline-block;
                 margin-right: 15px;
            }
            .image1{
-height: 80px;
-width: 80px;
-
+              width: 50px;
+              display: inline-block;
+              vertical-align: top;
+           }
+           .video-info{
+             display:inline-block;
+             width: 200px;
+           }
+           .profil-image1{
+             width: 40px;
+             border-radius:20px;
+           }
+           .image-row{
+              margin-bottom:12px;
            }
         </style>
     </head>
@@ -40,9 +54,13 @@ width: 80px;
         
         <div class="video-preview">
 
-           <img  class="image" src="image/img1youtube.jpeg" alt=""> 
-           <img  class="image1" src="image/dany.jpg">
-
+          <div class="image-row"> 
+            <img  class="image" src="image/img1youtube.jpeg" alt=""> 
+          </div>
+           <div class="image1">
+             <img class="profil-image1"  src="image/dany.jpg">
+           </div>
+           <div class="video-info">
             <p class="video-title">
            Talking Tech <strong>  and AI with </strong> Google CEO Sundar Pichai!
             </p>
@@ -52,7 +70,7 @@ width: 80px;
             <p class="video-stats">
               3.4M views &#183; 6 months ago
            </p>
-    
+          </div>
            
          </div> 
 
