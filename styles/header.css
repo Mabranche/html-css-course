@@ -1,0 +1,9 @@
+.search-bar{
+    display:block;
+ }
+ .header{
+     height: 55px;
+
+     display: flex;
+     flex-direction: row;
+ }
