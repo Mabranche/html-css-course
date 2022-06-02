@@ -1,6 +1,4 @@
-.search-bar{
-    display:block;
-    }
+
     .header{
         height: 55px;
         flex-direction:row;
@@ -21,7 +19,7 @@
         margin-right: 24px;
     }
     .middle-section{
-        background-color: lightpink;
+        
         flex: 1;
         margin-left: 70px;
         margin-right: 35px;
@@ -29,14 +27,27 @@
         display:flex;
         align-items: center;
     }
-.search-button{
-    height: 40px;
-    width: 60px;
-}
-.voice-search-button{
-    height: 40px;
-    width: 40px;
-}
+    .search-bar{
+        flex:1;
+        height: 34px;
+        padding-left: 10px;
+        font-size: 16px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        }
+        .search-bar::placeholder{
+            font-family: Roboto,Arial;
+            font-size: 16px;
+        }
+        .search-button{
+            height: 40px;
+            width: 60px;
+        }
+        .voice-search-button{
+            height: 40px;
+            width: 40px;
+        }
     .right-section{
         background-color: lightblue ;
         width: 200px;
