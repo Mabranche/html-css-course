@@ -6,3 +6,11 @@
     background-color: white;
     width: 72px;
 }
+.sidebar-link{
+    background-color: lightblue;
+    height: 76px;
+    margin-bottom: 1px;
+}
+.sidebar-link:hover{
+    background-color: lightgray;
+}
