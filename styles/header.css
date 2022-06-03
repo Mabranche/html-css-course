@@ -96,10 +96,10 @@ borde
     .notifications{
         height: 24px;
     }
-    .notifications-container{
+    .notifications-count{
         position: absolute;
-        top: 0;
-        right: 0;
+        top: -5px;
+        right: -5px;
         background-color: red;
         color: white;
         font-family: Roboto,Arial;
