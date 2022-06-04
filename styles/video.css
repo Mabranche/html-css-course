@@ -52,9 +52,13 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr; 
             column-gap: 16px;
-        row-gap: 40px;
+            row-gap: 40px;
             }
-        
+        @media(max-width:600px){
+            .video-grid{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
         .header{
             height: 55px;
             display: flex;
