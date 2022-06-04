@@ -69,10 +69,14 @@ borde
             position: relative;
         }
         .search-button  .tooltip,
-        .voice-search-search-button  .tooltip{
+        .voice-search-button  .tooltip{
 
         }
-        .search-button .tooltip{
+        
+        .search-button .tooltip,
+        .voice-search-button .toolip,
+        .upload-container  .toolip{
+            font-family:Roboto,Arial ;
             position:absolute;
             background-color: gray;
             color: white;
@@ -87,15 +91,16 @@ borde
             transition: opacity 0.15s;
             position: ;
         }
-        .search-button:hover .tooltip
-        .voice-search-button:hover .tooltip
+        .search-button:hover .tooltip,
+        .voice-search-button:hover .tooltip,
+        .upload-container:hover  .toolip
         {
-
             opacity:1;
 
         }
-        .search-button
-        .voice-search-button{
+        .search-button,
+        .voice-search-button,
+        .upload-container{
             display: flex ;
             justify-content: center;
             align-items: center;
