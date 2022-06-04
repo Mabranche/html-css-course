@@ -7,10 +7,20 @@
     width: 72px;
 }
 .sidebar-link{
-    background-color: lightblue;
+    
     height: 76px;
-    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .sidebar-link:hover{
     background-color: lightgray;
+}
+.sidebar-link img{
+    height: 30px;
+}
+.sidebar-link div{
+font-family: Roboto,Arial;
+font-size:10px ;
 }
